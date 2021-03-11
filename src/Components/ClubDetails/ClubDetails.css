@@ -1,0 +1,48 @@
+.thumbnail img {
+  width: 90%;
+  border-radius: 20px;
+}
+.brand {
+  background-color: blue;
+  width: 850px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 0px;
+}
+.text-brand {
+  color: aliceblue;
+  width: 50%;
+}
+.brand-image {
+  width: 50%;
+}
+.brand-image img {
+  width: 100%;
+}
+.brand-image img {
+  border-radius: 20px;
+}
+.icon {
+  width: 100%;
+}
+.icon img {
+  width: 8%;
+}
+.description {
+  text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .brand {
+    display: block;
+    width: 270px;
+  }
+  .text-brand {
+    width: 100%;
+  }
+  .brand-image {
+    width: 100%;
+  }
+}
