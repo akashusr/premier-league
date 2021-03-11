@@ -46,9 +46,9 @@ const ClubDetails = () => {
             </div>
 
             <div className="icon">
-                <a target="_blank" href={"https://" + strYoutube} > <img className="img-fluid" src={youTube} alt="" /></a>
-                <a target="_blank" href={"https://" + strFacebook} > <img className="img-fluid" src={facebook} alt="facebook" /></a>
-                <a target="_blank" href={"https://" + strTwitter} > <img className="img-fluid" src={twitter} alt="twitter" /></a>
+                <a href={"https://" + strYoutube} > <img className="img-fluid" src={youTube} alt="" /></a>
+                <a href={"https://" + strFacebook} > <img className="img-fluid" src={facebook} alt="facebook" /></a>
+                <a href={"https://" + strTwitter} > <img className="img-fluid" src={twitter} alt="twitter" /></a>
             </div>
         </div>
     );
