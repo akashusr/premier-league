@@ -6,6 +6,8 @@ import female from '../Photo/female.png'
 import facebook from '../Icon/Facebook.png'
 import twitter from '../Icon/Twitter.png'
 import youTube from '../Icon/YouTube.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMale, faFutbol, faClock, faFlag, faStream } from '@fortawesome/free-solid-svg-icons'
 
 const ClubDetails = () => {
     const { idTeam } = useParams();
@@ -25,11 +27,11 @@ const ClubDetails = () => {
 
             <div className="brand row">
                 <div className="col-md-6 text-brand">
-                    <h2>{strTeam}</h2>
-                    <p>Country: {strCountry}</p>
-                    <p>Founded: {intFormedYear}</p>
-                    <p>Sport Type: {strSport}</p>
-                    <p>Gender: {strGender}</p>
+                    <h2><FontAwesomeIcon icon={faStream} /> {strTeam}</h2>
+                    <p><FontAwesomeIcon icon={faFlag} /> Country: {strCountry}</p>
+                    <p><FontAwesomeIcon icon={faClock} /> Founded: {intFormedYear}</p>
+                    <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</p>
+                    <p><FontAwesomeIcon icon={faMale} /> Gender: {strGender}</p>
                 </div>
                 <div className="col-md-6 brand-image ">
                     {
